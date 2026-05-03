@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>1338 Piland Dr | West San Jose Home</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#top" data-brand>1338 Piland Dr</a>
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="#overview" data-i18n-en="Overview" data-i18n-zh="概览">Overview</a>
+        <a href="#tours" data-i18n-en="Tours" data-i18n-zh="看房">Tours</a>
+        <a href="#gallery" data-i18n-en="Gallery" data-i18n-zh="图集">Gallery</a>
+        <a href="#details" data-i18n-en="Details" data-i18n-zh="详情">Details</a>
+        <a href="#contact" data-i18n-en="Contact" data-i18n-zh="联系">Contact</a>
+      </nav>
+      <button class="lang-toggle" type="button" data-lang-toggle>中文</button>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-media" data-hero-media></div>
+        <div class="hero-copy">
+          <p class="eyebrow" data-status>Listing</p>
+          <div class="hero-price" data-price></div>
+          <h1 data-headline>Single Property Website</h1>
+          <p class="address-line" data-address></p>
+          <div class="hero-facts" data-hero-facts></div>
+          <p class="summary" data-summary>Replace this template with listing-specific copy.</p>
+          <div class="hero-actions" data-source-links></div>
+        </div>
+      </section>
+
+      <section class="facts" aria-label="Property facts" data-facts></section>
+
+      <section class="section overview" id="overview">
+        <div class="overview-copy">
+          <p class="eyebrow" data-i18n-en="Why this home" data-i18n-zh="核心看点">Why this home</p>
+          <h2 data-i18n-en="Updated, bright, and easy to live in" data-i18n-zh="明亮更新，轻松入住">Updated, bright, and easy to live in</h2>
+          <p data-feature-intro></p>
+          <div class="slogans" data-slogans></div>
+        </div>
+        <div class="agent-panel">
+          <p class="eyebrow" data-i18n-en="Listing agents" data-i18n-zh="挂牌经纪人">Listing agents</p>
+          <div data-agents></div>
+        </div>
+      </section>
+
+      <section class="section tours" id="tours" data-tours-section>
+        <div class="section-heading">
+          <p class="eyebrow" data-i18n-en="Tours and plans" data-i18n-zh="看房与户型">Tours and plans</p>
+          <h2 data-i18n-en="Explore the layout before you visit" data-i18n-zh="现场参观前先了解空间">Explore the layout before you visit</h2>
+        </div>
+        <div class="tour-grid" data-interactive-media></div>
+      </section>
+
+      <section class="section" id="gallery">
+        <div class="section-heading">
+          <p class="eyebrow" data-i18n-en="Gallery" data-i18n-zh="图集">Gallery</p>
+          <h2 data-i18n-en="A closer look" data-i18n-zh="细节一览">A closer look</h2>
+        </div>
+        <div class="gallery-sections" data-gallery></div>
+      </section>
+
+      <section class="section split" id="details">
+        <div>
+          <p class="eyebrow" data-i18n-en="Highlights" data-i18n-zh="亮点">Highlights</p>
+          <h2 data-i18n-en="What stands out" data-i18n-zh="房源特色">What stands out</h2>
+        </div>
+        <ul class="highlights" data-highlights></ul>
+      </section>
+
+      <section class="section description">
+        <p class="eyebrow" data-i18n-en="Description" data-i18n-zh="介绍">Description</p>
+        <div data-description>
+          <p>Website Builder should replace this section with property-specific narrative copy.</p>
+        </div>
+      </section>
+
+      <section class="section video is-hidden" data-video-section>
+        <p class="eyebrow" data-i18n-en="Video" data-i18n-zh="视频">Video</p>
+        <h2 data-i18n-en="AI listing video" data-i18n-zh="AI 房源视频">AI listing video</h2>
+        <div data-video-target></div>
+      </section>
+
+      <div class="lightbox is-hidden" data-lightbox aria-modal="true" role="dialog" aria-label="Photo viewer">
+        <button class="lightbox-close" type="button" data-lightbox-close aria-label="Close photo viewer">×</button>
+        <button class="lightbox-nav prev" type="button" data-lightbox-prev aria-label="Previous photo">‹</button>
+        <figure>
+          <img data-lightbox-img alt="" />
+          <figcaption data-lightbox-caption></figcaption>
+        </figure>
+        <button class="lightbox-nav next" type="button" data-lightbox-next aria-label="Next photo">›</button>
+      </div>
+
+      <section class="section contact" id="contact">
+        <p class="eyebrow" data-i18n-en="Contact and sources" data-i18n-zh="联系与来源">Contact and sources</p>
+        <h2 data-i18n-en="Talk to the listing team" data-i18n-zh="联系挂牌团队">Talk to the listing team</h2>
+        <div class="contact-layout">
+          <div class="agent-list" data-agents-secondary></div>
+          <div>
+            <div class="source-grid" data-source-links-secondary></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
